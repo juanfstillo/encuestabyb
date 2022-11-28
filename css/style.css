@@ -1,27 +1,48 @@
 body {
-    font-family:Arial;
-   }
+    font-family: 'Montserrat',sans-serif;
+  }
+
 .main{
-    /* background-image: url('../images/bg.jpg'); */
-    background-color: #FFFACD;
-    height: 345px;
+    background-color: #00a3e0;
+    height: 380px;
 }
+
 .main h1{
-    font-weight:400;
-    font-size: 64px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight:bold;
+    font-size: 42px;
+    color:white;
+
 }
+
 .main p{
+    font-family: 'Montserrat',sans-serif;
     font-style:italic;
-    font-weight:300;
-    font-size: 29px;
+    font-weight:100;
+    font-size: 14px;
+    color:white;
+    margin-left: 125px;
+    margin-right: 125px;
+
 }
+
+.explanation{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    margin-left: 125px;
+    margin-right: 125px;
+
+}
+
 img {
     max-width: 55%;
 }
+
 #boton {
     color:white;
     border: none;
-    background-color: #00a3e0;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #f68d2e ;
     font-size:32px;
 }
 
@@ -30,43 +51,67 @@ img {
     flex-wrap: wrap;
     padding: 0 4px;
   }
-  .column {
+
+.column {
     flex: 50%;
     max-width: 50%;
     padding: 0 4px;
   }
-  
-  .column img {
+
+.column img {
     margin-top: 8px;
+    margin-left: 125px;
     vertical-align: middle;
     width: 100%;
   }
 
+  footer{
+    font-family: 'Montserrat',sans-serif;
+  }
+
 @media screen and (max-width: 800px) {
     .main{
-        background-color: #FFFACD;
-        height: 340px;
+        background-color: #00a3e0;
+        height: 400px;
     }
     .column {
       flex: 100%;
       max-width: 100%;
     }
-    .colum img{
-        display: block;
-    }
+    .column img {
+        margin-top: 8px;
+        margin-left: auto;
+        vertical-align: middle;
+        width: 100%;
+      }
     .center {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 50%;
-
       }
     .main h1{
-        font-size: 40px;
+        font-size: 22px;
     }
     .main p{
-        font-size: 16px;
+        font-size: 12px;
         font-weight:400;
-
+        margin-left: 10px;
+        margin-right: 10px;
     }
-  }
+    .explanation{
+        font-family: 'Montserrat',sans-serif;
+        font-size: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+    
+    }
+}
+
+  @media only screen and (min-width: 768px){
+    .main{
+        background-color: #00a3e0;
+        height: 400px;
+    }
+    
+}
