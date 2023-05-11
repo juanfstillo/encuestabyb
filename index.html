@@ -11,21 +11,22 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <script src="js/index.js"></script>
+    <script src="js/index.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,700&display=swap" rel="stylesheet">
     
-    <title>ENCUESTA | BYB </title>
+    <title>ENCUESTA | FByB </title>
   </head>
 
   <body>
     <div>
       <section class="main pt-5 mx-auto pl-2 pr-2">
-        <h1 class="text-uppercase display-3 text-center pt-5 mb-4">Acceso a la información sobre Vacunas</h1>
+        <h1 class="text-uppercase display-3 text-center pt-5 mb-4">¿Qué pensamos los argentinos de las vacunas?</h1>
         <div class="text-center">
-          <a type="button" class="btn btn-primary btn-lg mb-3 mt-4" id="boton" href="javascript:randomlink()">Comenzar</a>
-          <p class="mt-4 ">Al hacer click en el botón aceptas participar de esta encuesta de manera voluntaria. Los datos serán usados para investigación académica.</p>
+          <a type="button" class="btn btn-primary btn-lg mb-3 mt-4 disabled" id="boton" href="javascript:randomlink()">Comenzar</a>
+          <p class="mt-4">Al hacer click en el botón aceptas participar de esta encuesta. Una vez finalizada participarás en un sorteo por cuatro tablets.<br> Los datos serán usados para investigación académica.</p>
+          <label class="form-check-label mt-2"><input class="form-check-input" type="checkbox" id="acepto" name="acepto"> He leído y acepto las <a class="link" href="https://drive.google.com/file/d/16QSdXCQfQ1fKWDbuGXiGo-L2BFR2e6f7/view">bases y condiciones</a> de participación al concurso</label>
         </div>
     </section>
     </div>
@@ -35,11 +36,15 @@
         <div class="row">
       
           <div class="column">
-            <img class="center" src="./images/box1.jpg" alt="byn">
+            <a href="https://www.fundacionbyb.org">
+              <img class="center" src="./images/box1.jpg" alt="byn">
+            </a>
           </div>
       
           <div class="column">
-            <img class="center" src="./images/box2.jpg" alt="undp">
+            <a href="https://www.undp.org/es/argentina">
+              <img class="center" src="./images/box2.jpg" alt="undp">
+            </a>
           </div>
 
         </div>
@@ -59,8 +64,8 @@
   
     <footer class="bg-white text-center fixed-bottom mt-3">
       <div class="text-center text-white " style="background-color: #53565A">
-        © 2022 Copyright
-        <a class="text-white" href="https://www.fundacionbyb.org/">FBYB </a>
+        © 2023 Copyright
+        <a class="text-white" href="https://www.fundacionbyb.org/">FBB </a>
       </div>
     </footer>
 
